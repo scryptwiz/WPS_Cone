@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+li {
+    list-style: none;
+}
+button {
+    background-color: #333231   ;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+}
+ul{
+    display: flex;
+}
+p {
+    color: rgba(0, 0, 0, 0.5);
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    gap: 60px;
+    position: static;
+    top: 0;
+    justify-content: space-between;
+}
+nav>span{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+nav>span>img{
+    width: 100px;
+}
+nav>span>ul{
+    gap: 40px;
+}
+nav>span>ul>li{
+    font-size: 14px;
+}
+nav>ul{
+    align-items: center;
+    gap: 30px;
+}
+nav>ul>li>img{
+    width: 25px;
+}
+nav>ul>li>#signin_btn {
+    background-color: transparent;
+    padding: 20px 0px;
+    color: #666;
+}
+#mid_cont{
+    background: linear-gradient(1turn, #f5f7fa, #daddfb);
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#mid_cont>h1{
+    text-align: center;
+}
+#mid_cont>p{
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
+#mid_cont>button{
+    margin: 10px auto;
+}
+#mid_cont>img{
+    width: 107px;
+    position: absolute;
+}
+#mid_cont>#left_nav_img {
+    left: 0;
+}
+#mid_cont>#right_nav_img {
+    right: 0;
+}
+#content {
+    background-color: #f5f7fa;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content>img{
+    margin-top: 20px;
+}
+#content>p{
+    width: 65%;
+    text-align: center;
+    margin-top: 10px;
+}
+#content>#pc_download {
+    width: 70%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    background-color: #fff;
+    padding: 25px;
+    width: 240px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card>img{
+    width: 50px;
+}
+.card>small {
+    color: rgba(0, 0, 0, 0.5);
+}
+.card>p{
+    margin: 20px 0px;
+}
+#content>#mobile_download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 70%;
+}
+#content>#mobile_download>span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+#content>#mobile_download>span>p{
+    margin-top: 10px;
+}
+#app_store_btn {
+    padding: 7px 25px;
+}
+#content>#mobile_download>#mobile_download_cont{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#content>#text_history {
+    width: 88%;
+}
+#content>#toolkit{
+    margin-top: 40px;
+}
+#content>#toolkit_short{
+    width: 80%;
+}
+#content>#pdf_tookit{
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#content>#pdf_tookit>#card{
+    width: 220px;
+    justify-content: space-between;
+}
+.card>#pdf_text{
+    font-size: 14px;
+}
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+footer>span{
+    width: 18%;
+}
+footer>span>ul{
+    margin-top: 25px;
+    flex-direction: column;
+    gap: 10px;
+}
+footer>span>#social{
+    flex-direction: row;
+}
+footer>span>ul>li>a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+footer>span>p {
+    margin-top: 20px;
+}
+footer>#small_card{
+    width: 336px;
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    border-radius: 20px;
+    background: linear-gradient(315deg, #c4cad8, #f2f5f8); 
+    padding: 30px;
+}
+footer>#small_card>#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./assets/facebook_logo.svg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+footer>#small_card>#logo>#text{
+    width: 60%;
+}
+footer>#small_card>#logo>#text>button{
+    padding: 10px 25px;
+    margin-top: 15px;
+}
+footer>#small_card>#logo>#qr{
+    width: 30%;
+}
+footer>#small_card>#logo>#qr>img{
+    width: 100%;
+}
+#last_cont{
+    padding: 40px 70px 120px 70px;
+}
+#last_cont>select{
+    border: none;
+    background-color: #f2f5f8;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+}
+#last_cont>p{
+    font-size: 14px;
+    margin-top: 20px;
+}

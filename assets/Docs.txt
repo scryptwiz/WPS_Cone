@@ -1,0 +1,7 @@
+linear-gradient(1turn,#f5f7fa,#daddfb)
+#9d6de7
+#ff9127
+linear-gradient(315deg,#c4cad8,#f2f5f8)
+
+Fonts
+"Noto Sans","Segoe UI",Avenir,Helvetica,Arial,sans-serif
